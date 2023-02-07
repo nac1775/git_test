@@ -25,10 +25,10 @@ public class Main14 {
  
 	public static void main(String[] args) {
  
-		Scanner in = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
         
-		int X = in.nextInt();
-		int Y = in.nextInt();
+		int X = sc.nextInt();
+		int Y = sc.nextInt();
 		
 		if(X > 0) {
 			if(Y > 0) {
@@ -38,7 +38,6 @@ public class Main14 {
 				System.out.print(4);
 			}
 		} 
-		
 		else {
 			if(Y > 0) {
 				System.out.print(2);
